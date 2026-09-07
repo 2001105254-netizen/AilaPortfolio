@@ -151,7 +151,7 @@ export const Hero: React.FC<HeroProps> = ({ onShowToast }) => {
                   <img
                     src={developerProfile.avatarUrl || profileAvatar}
                     alt={developerProfile.name}
-                    className="w-20 h-20 sm:w-24 sm:h-24 rounded-2xl object-cover border-2 border-indigo-500/30 shadow-md"
+                    className="w-24 h-24 sm:w-28 sm:h-28 rounded-2xl object-cover border-2 border-indigo-500/30 shadow-md"
                     loading="eager"
                   />
                   <div className="absolute -bottom-1 -right-1 w-6 h-6 rounded-full bg-emerald-500 border-2 border-white dark:border-slate-900 flex items-center justify-center text-white text-[10px]">
