@@ -29,7 +29,8 @@ jobs:
       - run: npm ci
       - run: npm run build
         env:
-          VITE_PORTFOLIO_API_URL: ${{ vars.VITE_PORTFOLIO_API_URL }}
+          # Public Edge Function endpoint; admin credentials remain private Supabase secrets.
+          VITE_PORTFOLIO_API_URL: https://qqqfhgegmueoxectmavb.supabase.co/functions/v1/portfolio-api
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

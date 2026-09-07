@@ -26,11 +26,7 @@ An installable portfolio for a Graphic Designer, Frontend Developer, and UI/UX D
    npx supabase functions deploy portfolio-api --no-verify-jwt
    ```
 
-4. In the `AilaPortfolio` GitHub repository, create the Actions variable:
-
-   ```text
-   VITE_PORTFOLIO_API_URL=https://YOUR_PROJECT_REF.supabase.co/functions/v1/portfolio-api
-   ```
+4. The GitHub Pages workflow is already connected to this project's public Edge Function URL. If the Supabase project changes later, update `VITE_PORTFOLIO_API_URL` in `.github/workflows/deploy-pages.yml`.
 
 5. In repository Settings → Pages, choose **GitHub Actions** as the source. The included workflow publishes the site after every push to `main`.
 
