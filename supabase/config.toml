@@ -1,0 +1,2 @@
+[functions.portfolio-api]
+verify_jwt = false

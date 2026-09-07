@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title description">
+  <title id="title">Aila profile placeholder</title>
+  <description id="description">A gradient profile placeholder with the initials AA.</description>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#0ea5e9"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#background)"/>
+  <circle cx="256" cy="208" r="96" fill="#ffffff" opacity="0.18"/>
+  <path d="M96 456c16-101 76-152 160-152s144 51 160 152" fill="#ffffff" opacity="0.18"/>
+  <text x="256" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="150" font-weight="700" fill="#ffffff">AA</text>
+</svg>
